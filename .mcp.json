@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "event-calendar": {
+      "command": "node",
+      "args": ["mcp-server/dist/index.js"]
+    }
+  }
+}

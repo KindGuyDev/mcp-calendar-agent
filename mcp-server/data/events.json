@@ -1,0 +1,43 @@
+[
+  {
+    "id": "8702e0ac-d091-430b-87ea-097137089149",
+    "when": {
+      "date": "2026-09-15",
+      "time": "18:00"
+    },
+    "who": [
+      "Mateusz",
+      "Beata"
+    ],
+    "where": "Konik Polny (ul. Konik Polny, Białołęka, Warszawa, 03-290)",
+    "createdAt": "2026-09-14T10:49:17.954Z",
+    "updatedAt": "2026-09-14T10:49:17.954Z"
+  },
+  {
+    "id": "0ae52688-2414-45d6-8f33-2f1d0113f727",
+    "when": {
+      "date": "2026-09-14",
+      "time": "14:30"
+    },
+    "who": [
+      "Bartek"
+    ],
+    "where": "Galeria Północna (ul. Światowida 17, 03-144 Warszawa)",
+    "createdAt": "2026-09-14T10:55:32.835Z",
+    "updatedAt": "2026-09-14T10:55:32.835Z"
+  },
+  {
+    "id": "23664626-8986-471b-a956-8585fa1a745a",
+    "when": {
+      "date": "2026-09-15",
+      "time": "10:30"
+    },
+    "who": [
+      "Stefan",
+      "Agata"
+    ],
+    "where": "Promenada Biała Łąka (ul. Lewandów / ul. Konik Polny, Białołęka, 03-289 Warszawa)",
+    "createdAt": "2026-09-14T11:00:45.650Z",
+    "updatedAt": "2026-09-14T11:00:45.650Z"
+  }
+]

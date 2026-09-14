@@ -1,0 +1,16 @@
+{
+  "runId": "2026-09-14-bartek-meeting",
+  "intent": "create",
+  "status": "completed",
+  "steps": [
+    { "agent": "requirements-formalizer", "status": "completed", "artifact": "artifacts/requirements-formalizer.md" },
+    { "agent": "calendar-conflict-checker", "status": "completed", "artifact": "artifacts/calendar-conflict-checker.md" },
+    { "agent": "location-resolver", "status": "completed", "artifact": "artifacts/location-resolver.md" },
+    { "agent": "validator", "status": "completed", "artifact": "artifacts/validator.md" },
+    { "agent": "event-summary-builder", "status": "completed", "artifact": "artifacts/event-summary-builder.md" },
+    { "agent": "calendar-writer", "status": "completed", "artifact": "0ae52688-2414-45d6-8f33-2f1d0113f727" },
+    { "agent": "html-builder", "status": "completed", "artifact": "output/event-plan.html" }
+  ],
+  "approval": { "status": "approved", "feedback": "" },
+  "retries": {}
+}

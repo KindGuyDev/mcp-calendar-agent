@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|mcp__event-calendar__create_event|mcp__event-calendar__update_event|mcp__event-calendar__delete_event",
+        "hooks": [
+          { "type": "command", "command": "node .claude/hooks/approval-gate-guard.mjs" }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          { "type": "command", "command": "node .claude/hooks/no-leak-guard.mjs" }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|mcp__event-calendar__create_event|mcp__event-calendar__update_event|mcp__event-calendar__delete_event",
+        "hooks": [
+          { "type": "command", "command": "node .claude/hooks/post-write-state.mjs" }
+        ]
+      }
+    ]
+  }
+}

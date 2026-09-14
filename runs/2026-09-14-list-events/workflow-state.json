@@ -1,0 +1,11 @@
+{
+  "runId": "2026-09-14-list-events",
+  "intent": "query",
+  "status": "completed",
+  "steps": [
+    { "agent": "requirements-formalizer", "status": "completed", "artifact": "artifacts/requirements-formalizer.md" },
+    { "agent": "event-calendar-mcp-read", "status": "completed", "artifact": "list_events (direct MCP read, no artifact file)" }
+  ],
+  "approval": { "status": "not_required", "feedback": "" },
+  "retries": {}
+}
